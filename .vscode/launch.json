@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Inicia el servidor Node.js con el debugger activado
+            "type": "node",
+            "request": "launch",
+            "name": "🚀 Iniciar Servidor (Backend)",
+            "program": "${workspaceFolder}/server/server.js",
+            "envFile": "${workspaceFolder}/server/.env",
+            "console": "integratedTerminal",
+            "restart": true,
+            "runtimeArgs": ["--nolazy"],
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            // Conecta el debugger a un servidor Node.js ya en ejecución (npm start)
+            "type": "node",
+            "request": "attach",
+            "name": "🔌 Conectar al Servidor (ya corriendo)",
+            "port": 9229,
+            "skipFiles": ["<node_internals>/**"],
+            "restart": true
+        }
+    ]
+}
