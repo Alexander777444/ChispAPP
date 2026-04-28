@@ -20,11 +20,11 @@ const Colors = {
   error:       '#EF4444',   // Rojo — incorrecto, error
   warning:     '#F59E0B',   // Naranja — advertencia
 
+
+  //DEBEMOS ELIMINAR LAS DEMAS MATERIAS SOLO INGLES DEBE QUEDAR*****************.
+
   // Materias (tarjetas del dashboard)
-  matMath:     '#1B3F8B',   // Matemáticas — azul primario
-  matEsp:      '#7C3AED',   // Español — morado
-  matCiencias: '#0891B2',   // Ciencias — cian
-  matHist:     '#B45309',   // Historia — café dorado
+  ing:     '#1B3F8B',   // Inglés — azul primario
 
   white:       '#FFFFFF',
   black:       '#000000',
