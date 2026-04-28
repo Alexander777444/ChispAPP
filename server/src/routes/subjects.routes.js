@@ -1,9 +1,7 @@
 const router = require('express').Router();
+const subjectsController = require('../controllers/subjects.controller');
 
-router.get('/', (req, res) => {
-  res.json([
-    { id: 1, name: 'Ingles' }    
-  ]);
-});
+router.get('/', subjectsController.getSubjects);
+router.post('/', subjectsController.createSubject);
 
 module.exports = router;
