@@ -1,11 +1,11 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import WelcomeScreen from '../screens/onboarding/WelcomeScreen';
-import VAKScreen from '../screens/onboarding/VAKScreen';
-import HomeScreen from '../screens/home/HomeScreen';
-import SubjectsScreen from '../screens/subjects/SubjectsScreen';
-import ProgressScreen from '../screens/progress/ProgressScreen';
+import WelcomeScreen from '../pages/onboarding/WelcomeScreen';
+import VAKScreen from '../pages/onboarding/VAKScreen';
+import HomeScreen from '../home/HomeScreen';
+import SubjectsScreen from '../../subjects/SubjectsScreen';
+import ProgressScreen from '../../progress/ProgressSreen';
 
 const Stack = createNativeStackNavigator();
 

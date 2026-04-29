@@ -1,9 +1,9 @@
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, Image } from 'react-native';
 
 export default function WelcomeScreen({ navigation }) {
   return (
     <View>
-      <Image source={require('../../../assets/PrimerLogoChispapp.png')} /> //FOTO PRINCIPAL
+      <Image source={require('../../../assets/PrimerLogoChispapp.png')} /> {/* FOTO PRINCIPAL */}
       <Text>Chispa</Text>
       <Button title="Comenzar" onPress={() => navigation.navigate('VAK')} />
     </View>
